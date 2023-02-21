@@ -1,0 +1,39 @@
+.navbar {
+  padding: 3rem 0;
+
+  .logo {
+    font-size: min(7vw, 2.6rem);
+    text-transform: uppercase;
+  }
+
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+  }
+
+  a {
+    padding: 0.7rem;
+    text-transform: capitalize;
+  }
+
+  .user {
+    margin-left: 3rem;
+    margin-right: 1rem;
+  }
+}
+
+
+@media(max-width:500px){
+  .navbar{
+    .logo{
+      display: none;
+    }
+  }
+}

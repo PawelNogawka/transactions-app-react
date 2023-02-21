@@ -1,0 +1,40 @@
+@import "../../variables";
+
+.formWrapper {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+  h1 {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: min(4.7rem, 10vw);
+    margin-bottom: 3rem;
+  }
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    gap: 1.5rem;
+    button {
+      flex-grow: 1;
+    }
+  }
+
+  .error {
+    color: $error;
+  }
+}
+
+@media (min-width: 768px) {
+  .formWrapper {
+    margin-top: 10rem;
+  }
+}

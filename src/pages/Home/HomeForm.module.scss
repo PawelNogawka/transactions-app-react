@@ -1,0 +1,22 @@
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    button{
+        margin-top: 1rem;
+    }
+   
+}
+
+
+
+@media(min-width:992px){
+    .wrapper{
+        position: sticky;
+        position: sticky;
+        top: 10rem;
+    }
+    
+}

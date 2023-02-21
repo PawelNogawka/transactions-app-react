@@ -1,0 +1,27 @@
+@import '../../variables';
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    input{
+        padding: 1.2rem;
+        border-radius:.5rem;
+        border: 0;
+
+        &:focus{
+            outline: 0;
+            box-shadow: 0 0 17px $main;
+        }
+    }
+
+    label{
+        text-transform: capitalize;
+    }
+
+    .error{
+        color:$error;
+        font-size:1.4rem;
+    }
+}

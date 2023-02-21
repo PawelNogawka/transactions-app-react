@@ -1,0 +1,13 @@
+@import "../../variables";
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.error {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: $error;
+}
